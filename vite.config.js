@@ -6,7 +6,8 @@ import SortCss from 'postcss-sort-media-queries';
 
 export default defineConfig(({ command }) => {
   return {
-    base: '/goit-js-hw-11/',  // <-- Buraya GitHub Pages projenin alt dizini (repo adı) gelecek
+    base: '/goit-js-hw-11/',
+
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
