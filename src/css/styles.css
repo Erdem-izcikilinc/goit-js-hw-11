@@ -10,7 +10,6 @@ body {
   margin: 0 auto;
 }
 
-/* 🔍 Arama kutusu ortalanmış ve küçültüldü */
 .search-form {
   display: flex;
   justify-content: center;
